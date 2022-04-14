@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#sidebar {
+    background-color: #191718;
+    color: #AAAAAA;
+    position: fixed;
+    height: 100%;
+    width: 150px;
+
+}
+
+
+.content-nav {
+    padding: 10px 20px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.active {
+    color: white;
+}
+
+.content-nav:hover {
+    background-color: #5C5C5C;
+    color: white;
+}
+
+#main-view {
+    width: calc(100% - 150px);
+    height: 100vh;
+    background-color: white;
+    margin-left: 150px;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.logo-ncc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.logo-ncc img {
+    width: 310px;
+    height: auto;
+}
+
+.content {
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 38px 269px;
+    margin: 0 129px;
+    font-size: 16px;
+    line-height: 21.09px;
+}
+
+.content p:first-child {
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.list-content {
+    margin: 40px 129px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1;
+    gap: 50px;
+}
+
+.card {}
+
+.card h1 {
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+.card-content img {
+    width: 128px;
+    height: 128px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footer {
+    width: calc(100% - 150px);
+    position: fixed;
+    border-top: 1px solid black;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: white;
+}
+
+.footer div {
+    margin-left: 129px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
